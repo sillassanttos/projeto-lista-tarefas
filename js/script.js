@@ -32,3 +32,7 @@ function editar(id, txt_tarefa) {
   inputTarefa.focus();
 
 }
+
+function remover(id) {
+  location.href = 'todas_tarefas.php?acao=remover&id=' + id
+}
