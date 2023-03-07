@@ -29,9 +29,6 @@ function editar(id, txt_tarefa) {
   tarefa.innerHTML = ''
   tarefa.insertBefore(form, tarefa[0])
 
-
-
-
-
+  inputTarefa.focus();
 
 }
