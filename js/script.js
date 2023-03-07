@@ -36,3 +36,7 @@ function editar(id, txt_tarefa) {
 function remover(id) {
   location.href = 'todas_tarefas.php?acao=remover&id=' + id
 }
+
+function marcarRealizada(id) {
+  location.href = 'todas_tarefas.php?acao=marcarRealizada&id=' + id
+}
